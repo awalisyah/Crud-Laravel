@@ -39,6 +39,7 @@
               <a class="btn btn-sm btn-success" href="{{route('buku.show', $buku->id)}}">Show</a>
               <a class="btn btn-sm btn-warning" href="{{route('buku.edit', $buku->id)}}">Edit</a>
               <a class="btn btn-sm btn-warning" href="{{route('buku.edit', $buku->id)}}">Update</a>
+
               
               <button type="submit" class="btn btn-sm btn-danger">Delete</button>
             </form>
